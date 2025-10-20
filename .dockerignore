@@ -1,0 +1,61 @@
+# Ignore Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Ignore environment files
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and local data
+*.log
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.dat
+*.tmp
+*.bak
+
+# Ignore test output and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Git metadata
+.git
+.gitignore
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore docs builds
+docs/_build/
+site/
+
+# Optional: ignore notebooks or large data
+notebooks/
+data/
